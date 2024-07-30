@@ -7,12 +7,12 @@ export default function Header() {
 
   return (
     <header className="flex">
-      <button className="mode flex"
+      <button className="mode flex menu"
         onClick={() => {
           setModal(true);
         }}
       >
-        <span className="menu icon-menu"/>
+        <span className="icon-menu"/>
       </button>
 
       <div />

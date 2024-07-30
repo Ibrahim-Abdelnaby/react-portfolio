@@ -119,10 +119,16 @@ header button span.icon-cancel:hover {
 }
 
 header button.cancel:hover span.icon-cancel {
-    transform: rotate(180deg);
+    transform: rotate(360deg);
 }
 
+header button.menu {
+    text-align: center;
+}
 
+header button span {
+    display: block;
+}
 
 
 
