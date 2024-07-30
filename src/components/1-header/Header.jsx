@@ -7,6 +7,7 @@ export default function Header() {
 
   return (
     <header className="flex">
+      {/* Menu Icon */}
       <button className="mode flex menu"
         onClick={() => {
           setModal(true);
@@ -16,7 +17,7 @@ export default function Header() {
       </button>
 
       <div />
-
+        {/* Navigation menu */}
       <nav>
         <ul className="flex">
           <li>
@@ -36,11 +37,11 @@ export default function Header() {
           </li>
         </ul>
       </nav>
-
+        {/* Light & Dark Mode Icons */}
       <button className="mode flex">
         <span className="icon-moon-o"/>
       </button>
-
+        {/* Modal (Popup Menu) in small screens*/}
       {modal && (
         <div className="fixed">
           <ul className="modal">
